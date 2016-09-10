@@ -1,0 +1,15 @@
+#!/bin/sh
+# replace cmd1 for the command to execute
+
+host=<hostname>
+port=23
+pass=login=<password>   # format is login=<password>
+cmd1='setpower=11110000'
+
+( echo open ${host}
+sleep 1
+echo ${pass}
+sleep 1
+echo ${cmd1}
+sleep 2
+ ) | telnet
