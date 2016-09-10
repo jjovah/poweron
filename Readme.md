@@ -1,9 +1,12 @@
-# Poweron Script for a telnet enable power device
+# Power-On Script for a telnet enable power device
 
 This script is a simple telnet script that send some command to a device that switches on certain power ports on the device
 
 *IP-Power Commands*
 lets take a look at this command here --> 'cmd1=setpower=11110000'
+~~~~~~~~
+'cmd1=setpower=11110000'
+~~~~~~~~
 
   - cmd1 is a variable that I define in the script.
   - setpower is  a command on the IP-Power device
